@@ -86,7 +86,7 @@
  * );
  * @endcode
  */
- $databases = array();
+$databases = array();
 
 /**
  * Customizing database settings.
@@ -244,7 +244,9 @@
  *   );
  * @endcode
  */
-$config_directories = array();
+$config_directories = array(
+  CONFIG_SYNC_DIRECTORY => '../config/sync'
+);
 
 /**
  * Settings:
@@ -285,7 +287,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'MKn1JTQVksRwb9v_z8LyDpbejXLbHJUraFc6_Yt3sPBI_HQe-q2o2oQ_6b5ZxkhpJDwInlpq_w';
 
 /**
  * Deployment identifier.
@@ -749,6 +751,8 @@ $settings['file_scan_ignore_directories'] = [
  *
  * Keep this code block at the end of this file to take full effect.
  */
-# if (file_exists(__DIR__ . '/settings.local.php')) {
-#   include __DIR__ . '/settings.local.php';
-# }
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}
+
+$settings['install_profile'] = 'standard';
