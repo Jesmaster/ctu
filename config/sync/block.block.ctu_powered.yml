@@ -1,0 +1,20 @@
+uuid: 15511ffa-98a0-4779-a99f-b3c399017265
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ctu
+id: ctu_powered
+theme: ctu
+region: '-1'
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

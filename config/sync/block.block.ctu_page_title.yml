@@ -1,0 +1,18 @@
+uuid: 56b334c1-4a3f-4cc2-b87b-4a6f0894abe0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ctu
+id: ctu_page_title
+theme: ctu
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

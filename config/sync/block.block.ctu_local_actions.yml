@@ -1,0 +1,18 @@
+uuid: d634708d-3eb6-40ac-b04f-afc2ec8f2462
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ctu
+id: ctu_local_actions
+theme: ctu
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

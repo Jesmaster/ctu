@@ -1,0 +1,23 @@
+uuid: f35a1c19-dad5-4783-a6bb-6d997afe02c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctu
+id: ctu_branding
+theme: ctu
+region: navigation
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

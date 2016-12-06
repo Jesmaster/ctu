@@ -1,0 +1,20 @@
+uuid: f7b94af0-9653-4552-8627-e5fb469913ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ctu
+id: ctu_help
+theme: ctu
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

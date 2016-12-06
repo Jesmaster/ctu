@@ -1,0 +1,20 @@
+uuid: 37836401-7f5e-416f-8ce8-aca36f17711c
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bootstrap
+id: bootstrap_search
+theme: bootstrap
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

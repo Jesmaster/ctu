@@ -1,0 +1,24 @@
+uuid: 43980246-dc1d-441f-9334-936e60c097d7
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ctu
+id: ctu_account_menu
+theme: ctu
+region: '-1'
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

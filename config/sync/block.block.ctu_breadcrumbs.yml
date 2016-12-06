@@ -1,0 +1,20 @@
+uuid: 92c067ca-f5ca-43c9-afc9-8984bbc220a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctu
+id: ctu_breadcrumbs
+theme: ctu
+region: header
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
