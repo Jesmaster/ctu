@@ -9,6 +9,9 @@ web/profiles/contrib
 # Ignore Drupal's file directory
 web/sites/*/files
 
+web/sites/default/settings.local.php
+console/log/*.log
+
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
 
