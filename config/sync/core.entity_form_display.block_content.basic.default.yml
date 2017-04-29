@@ -1,4 +1,4 @@
-uuid: eb5cfa3e-c753-42cc-a260-703098f27583
+uuid: cb5c08ac-492a-4b83-a11e-429f65da1801
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.block_content.basic.body
   module:
     - text
+_core:
+  default_config_hash: e1Nu5xXAuF_QplbBUhQBPLnYWvHtDX0MkZnpuCiY8uM
 id: block_content.basic.default
 targetEntityType: block_content
 bundle: basic
@@ -15,6 +17,7 @@ content:
   body:
     type: text_textarea_with_summary
     weight: -4
+    region: content
     settings:
       rows: 9
       summary_rows: 3
@@ -23,6 +26,7 @@ content:
   info:
     type: string_textfield
     weight: -5
+    region: content
     settings:
       size: 60
       placeholder: ''

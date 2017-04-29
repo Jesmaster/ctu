@@ -1,0 +1,21 @@
+uuid: fa78c6bd-051a-4a81-8c19-ce441f68d98d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_choice_2
+    - node.type.cleary
+id: node.cleary.field_choice_2
+field_name: field_choice_2
+entity_type: node
+bundle: cleary
+label: 'Choice 2'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'No'
+default_value_callback: ''
+settings: {  }
+field_type: string

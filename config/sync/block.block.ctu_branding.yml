@@ -1,4 +1,4 @@
-uuid: f35a1c19-dad5-4783-a6bb-6d997afe02c8
+uuid: 5b3e060e-1680-4f90-97c3-b672393c08ec
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - system
   theme:
     - ctu
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: ctu_branding
 theme: ctu
 region: navigation

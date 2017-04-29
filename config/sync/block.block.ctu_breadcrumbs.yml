@@ -1,4 +1,4 @@
-uuid: 92c067ca-f5ca-43c9-afc9-8984bbc220a4
+uuid: a821b3ff-593b-4bbe-ba51-d106bb947ad8
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,11 @@ dependencies:
     - system
   theme:
     - ctu
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: ctu_breadcrumbs
 theme: ctu
-region: header
+region: content
 weight: -6
 provider: null
 plugin: system_breadcrumb_block

@@ -1,4 +1,4 @@
-uuid: 34a41023-acba-4c06-a2fa-f6ede39d3144
+uuid: 29f52a8a-3d17-4f10-b2b6-3d47a4e8db84
 langcode: en
 status: false
 dependencies:
@@ -8,10 +8,12 @@ dependencies:
     - system
   theme:
     - ctu
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: ctu_tools
 theme: ctu
-region: '-1'
-weight: -3
+region: sidebar_first
+weight: -6
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

@@ -1,13 +1,15 @@
-uuid: 7a21a81e-4244-4c62-8c8d-15528b7368b4
+uuid: 6aeea12f-7f18-41fd-b1a1-1ab189512f8b
 langcode: en
 status: true
 dependencies:
   theme:
     - ctu
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: ctu_local_tasks
 theme: ctu
 region: content
-weight: -5
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

@@ -1,0 +1,67 @@
+uuid: 9a5891ed-d942-4801-8e29-a8610458ac30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cleary.body
+    - field.field.node.cleary.field_choice_1
+    - field.field.node.cleary.field_choice_2
+    - field.field.node.cleary.field_comments
+    - field.field.node.cleary.field_reference_links
+    - node.type.cleary
+  module:
+    - comment
+    - link
+    - text
+    - user
+id: node.cleary.default
+targetEntityType: node
+bundle: cleary
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_choice_1:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_choice_2:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_comments:
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_reference_links:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      target: _blank
+      url_only: false
+      url_plain: false
+      rel: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  links: true

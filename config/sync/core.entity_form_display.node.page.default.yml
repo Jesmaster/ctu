@@ -1,4 +1,4 @@
-uuid: daae7983-794f-42d2-accd-45bd9bfcd2b9
+uuid: 8be39001-8a49-4553-bd79-93855190eeae
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - path
     - text
+_core:
+  default_config_hash: sWCotip3wyA0CvZUxyo-StTDU8TyTAhx5fcfOiHS6s4
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -16,6 +18,7 @@ content:
   body:
     type: text_textarea_with_summary
     weight: 31
+    region: content
     settings:
       rows: 9
       summary_rows: 3
@@ -24,11 +27,13 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
     weight: 30
+    region: content
     settings: {  }
     third_party_settings: {  }
   promote:
@@ -36,16 +41,19 @@ content:
     settings:
       display_label: true
     weight: 15
+    region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
     weight: 16
+    region: content
     third_party_settings: {  }
   title:
     type: string_textfield
     weight: -5
+    region: content
     settings:
       size: 60
       placeholder: ''
@@ -53,6 +61,7 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 5
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60

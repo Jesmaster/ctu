@@ -1,9 +1,11 @@
-uuid: 1e623c35-de7d-4c04-8e97-3cddd888e8ad
+uuid: 6576912d-be67-47d6-b2b5-d46566579923
 langcode: en
 status: true
 dependencies:
   theme:
     - seven
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
 id: seven_local_actions
 theme: seven
 region: content

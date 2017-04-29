@@ -1,0 +1,22 @@
+uuid: b1f11d85-ff16-42a3-9589-f89bdcae398f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cleary
+  module:
+    - text
+id: node.cleary.body
+field_name: body
+entity_type: node
+bundle: cleary
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

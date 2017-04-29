@@ -1,4 +1,4 @@
-uuid: d7a702f0-b393-4155-bb5a-817356374856
+uuid: 629a8a1e-03f8-4d78-bed5-4bff1ad2c8a6
 name: 'Clear This Up'
 mail: jesmasterha@gmail.com
 slogan: ''
@@ -10,3 +10,5 @@ admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

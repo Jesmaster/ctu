@@ -1,9 +1,11 @@
-uuid: 4798feb6-8da9-4236-970b-095c56ce7376
+uuid: 1011ee61-92cd-48b3-abe6-5faa20cae9a5
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
 id: node_search
 label: Content
 path: node

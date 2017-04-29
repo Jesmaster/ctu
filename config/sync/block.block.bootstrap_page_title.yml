@@ -1,9 +1,11 @@
-uuid: a2cdc1fd-4d6d-4c78-8ab9-f49ec065b7cc
+uuid: 2b119d5c-5c5a-49cd-8785-196de0088b44
 langcode: en
 status: true
 dependencies:
   theme:
     - bootstrap
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
 id: bootstrap_page_title
 theme: bootstrap
 region: header

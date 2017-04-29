@@ -1,15 +1,17 @@
-uuid: d1ea1a78-0b64-46d4-80bc-a9ee9e498128
+uuid: d229d48f-29a2-45db-832b-b06aa1b44017
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - search
   theme:
     - ctu
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
 id: ctu_search
 theme: ctu
-region: '-1'
-weight: -4
+region: header
+weight: -6
 provider: null
 plugin: search_form_block
 settings:

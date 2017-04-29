@@ -1,10 +1,12 @@
-uuid: c459f03f-0be3-4402-b3db-b5293e0e398b
+uuid: 11e65035-6b60-4e42-b7b9-65fa13d67f01
 langcode: en
 status: true
 dependencies:
   module:
     - file
     - user
+_core:
+  default_config_hash: rRWxAX-IQkJ5viACQRovRkC784EyCl9493GU_G23n2Q
 id: files
 label: Files
 module: file

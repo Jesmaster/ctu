@@ -1,13 +1,15 @@
-uuid: 56b334c1-4a3f-4cc2-b87b-4a6f0894abe0
+uuid: f6dadbf2-6947-4ffd-9e55-3c4c986e0b29
 langcode: en
 status: true
 dependencies:
   theme:
     - ctu
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: ctu_page_title
 theme: ctu
 region: content
-weight: -6
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

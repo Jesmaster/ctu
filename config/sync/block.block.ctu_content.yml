@@ -1,4 +1,4 @@
-uuid: bf3ed771-f3d5-4ee6-a12f-d74864988796
+uuid: 678de9e4-e3d5-4d15-af9a-dbebc7c07be7
 langcode: en
 status: true
 dependencies:
@@ -6,10 +6,12 @@ dependencies:
     - system
   theme:
     - ctu
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: ctu_content
 theme: ctu
 region: content
-weight: -3
+weight: -1
 provider: null
 plugin: system_main_block
 settings:

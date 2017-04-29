@@ -1,0 +1,17 @@
+uuid: ead2f7bd-1aa9-43d1-99c1-b1b6b9cdd6dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Cleary
+type: cleary
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

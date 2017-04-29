@@ -1,4 +1,4 @@
-uuid: 4e4bf8a7-9fc6-4907-bf36-32fe034ce8cd
+uuid: 3fdad547-b13a-4f4e-8389-1761d53cc514
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - system
   theme:
     - ctu
+_core:
+  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: ctu_footer
 theme: ctu
 region: footer

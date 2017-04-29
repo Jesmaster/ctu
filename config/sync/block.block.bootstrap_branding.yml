@@ -1,4 +1,4 @@
-uuid: 560e6138-1449-4031-8945-22a2516ff8c3
+uuid: 0df38eed-ff73-4fb1-a2f2-f48fadf65ab6
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - system
   theme:
     - bootstrap
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
 id: bootstrap_branding
 theme: bootstrap
 region: navigation
