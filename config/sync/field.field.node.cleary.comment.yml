@@ -1,20 +1,20 @@
-uuid: 80299544-4349-4b00-b048-406d8fcd2129
+uuid: 79214c90-8652-4a45-8b26-7d1753af5f57
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_comments
+    - field.storage.node.comment
     - node.type.cleary
   module:
     - comment
-id: node.cleary.field_comments
-field_name: field_comments
+id: node.cleary.comment
+field_name: comment
 entity_type: node
 bundle: cleary
 label: Comments
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     status: 2
@@ -29,5 +29,5 @@ settings:
   per_page: 50
   anonymous: 0
   form_location: true
-  preview: 1
+  preview: 0
 field_type: comment

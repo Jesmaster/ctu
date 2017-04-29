@@ -4,10 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.cleary.body
+    - field.field.node.cleary.comment
     - field.field.node.cleary.field_choice_1
     - field.field.node.cleary.field_choice_2
-    - field.field.node.cleary.field_comments
     - field.field.node.cleary.field_reference_links
+    - field.field.node.cleary.field_tags
     - node.type.cleary
   module:
     - comment
@@ -27,6 +28,12 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    region: content
+  comment:
+    weight: 37
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   created:
     type: datetime_timestamp
@@ -50,12 +57,6 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_comments:
-    weight: 35
-    settings: {  }
-    third_party_settings: {  }
-    type: comment_default
-    region: content
   field_reference_links:
     weight: 34
     settings:
@@ -63,6 +64,15 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
+  field_tags:
+    weight: 36
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   path:
     type: path
