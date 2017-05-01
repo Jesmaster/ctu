@@ -287,7 +287,7 @@ $config_directories = array(
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'CNDSNWkQZfk3x813gA_FdqMZL2zfs_oG3o96LnQfILl9SLZyMrOWytbLXzYprrjkM-eQlfYjiQ';
+$settings['hash_salt'] = 'efoMdepHHOca1sLds5-IucOSoS7ksvV9Z-merX6v7TYGs9bSlfbEZtf1yWbxUmqpQ_ZwOqCOIg';
 
 /**
  * Deployment identifier.
@@ -754,5 +754,3 @@ $settings['file_scan_ignore_directories'] = [
 if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }
-
-$settings['install_profile'] = 'standard';
