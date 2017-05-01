@@ -20,7 +20,7 @@ class CtuCommentsController extends ControllerBase {
 
       $message = new \stdClass();
       $message->subject = 'TEST';
-      $message->content = '<p>Test content</p>';
+      $message->content = $comment->comment_body->value;
 
       $response->addCommand(new CtuCommentsCommand($message));
 
