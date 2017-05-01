@@ -1,0 +1,5 @@
+ctu_comments.commands:
+  js:
+    js/command.js: {}
+  dependencies:
+     - core/drupal.ajax

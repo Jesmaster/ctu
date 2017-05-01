@@ -1,0 +1,5 @@
+name: ctu_comments
+type: module
+description: Comment Functionality
+core: 8.x
+package: Clear This Up

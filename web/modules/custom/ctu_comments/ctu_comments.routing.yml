@@ -1,0 +1,10 @@
+
+ctu_comments.ctu_comments_controller_comment_load:
+  path: '/comments/{method}/load/{comment}'
+  defaults:
+    _controller: '\Drupal\ctu_comments\Controller\CtuCommentsController::comment_load'
+    _title: 'Comment Load'
+  requirements:
+    _permission: 'access content'
+    method: 'ajax|nojs'
+    comment: ^[a-zA-Z0-9_]+
