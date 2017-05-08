@@ -3,16 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.cleary.body
-    - field.field.node.cleary.comment
     - field.field.node.cleary.field_choice_1
     - field.field.node.cleary.field_choice_2
     - field.field.node.cleary.field_reference_links
     - field.field.node.cleary.field_tags
     - node.type.cleary
   module:
-    - comment
     - link
     - text
     - user
@@ -27,15 +24,6 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
-    region: content
-  comment:
-    weight: 6
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-    type: comment_default
     region: content
   field_choice_1:
     weight: 2
@@ -66,7 +54,7 @@ content:
     type: link
     region: content
   field_tags:
-    weight: 5
+    weight: 4
     label: above
     settings:
       link: true
