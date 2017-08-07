@@ -1,0 +1,9 @@
+uuid: 67efb473-9bc9-40da-bae2-a166fbb6a95c
+langcode: en
+status: true
+dependencies: {  }
+name: Nowcasts
+vid: nowcasts
+description: ''
+hierarchy: 0
+weight: 0

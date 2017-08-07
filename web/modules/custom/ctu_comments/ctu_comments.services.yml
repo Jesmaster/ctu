@@ -1,5 +1,0 @@
-services:
-  ctu_comments.service:
-    class: Drupal\ctu_comments\CtuCommentsService
-    arguments: ['@database', '@current_user']
-

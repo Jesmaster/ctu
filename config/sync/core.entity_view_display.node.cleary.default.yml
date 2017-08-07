@@ -6,11 +6,10 @@ dependencies:
     - field.field.node.cleary.body
     - field.field.node.cleary.field_choice_1
     - field.field.node.cleary.field_choice_2
-    - field.field.node.cleary.field_reference_links
+    - field.field.node.cleary.field_nowcast
     - field.field.node.cleary.field_tags
     - node.type.cleary
   module:
-    - link
     - text
     - user
 id: node.cleary.default
@@ -41,17 +40,13 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_reference_links:
-    weight: 1
-    label: hidden
+  field_nowcast:
+    weight: 5
+    label: above
     settings:
-      trim_length: 80
-      target: _blank
-      url_only: false
-      url_plain: false
-      rel: '0'
+      link: true
     third_party_settings: {  }
-    type: link
+    type: entity_reference_label
     region: content
   field_tags:
     weight: 4

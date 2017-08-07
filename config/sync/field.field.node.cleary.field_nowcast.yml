@@ -1,0 +1,32 @@
+uuid: 2052cf92-8b4a-4b18-b896-05be2060a953
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nowcast
+    - node.type.cleary
+    - taxonomy.vocabulary.nowcasts
+  content:
+    - 'taxonomy_term:nowcasts:56fee7e3-8aef-41e7-a39f-f90960aa7e3b'
+id: node.cleary.field_nowcast
+field_name: field_nowcast
+entity_type: node
+bundle: cleary
+label: Nowcast
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 56fee7e3-8aef-41e7-a39f-f90960aa7e3b
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nowcasts: nowcasts
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

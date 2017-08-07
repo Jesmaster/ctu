@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.cleary.body
     - field.field.node.cleary.field_choice_1
     - field.field.node.cleary.field_choice_2
-    - field.field.node.cleary.field_reference_links
     - field.field.node.cleary.field_tags
     - node.type.cleary
   module:
@@ -21,6 +20,5 @@ hidden:
   body: true
   field_choice_1: true
   field_choice_2: true
-  field_reference_links: true
   field_tags: true
   links: true

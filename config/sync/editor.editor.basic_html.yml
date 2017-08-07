@@ -24,6 +24,7 @@ settings:
           items:
             - DrupalLink
             - DrupalUnlink
+            - footnotes
         -
           name: Lists
           items:
@@ -33,16 +34,13 @@ settings:
           name: Media
           items:
             - Blockquote
-            - DrupalImage
         -
           name: 'Block Formatting'
           items:
             - Format
-        -
-          name: Tools
-          items:
-            - Source
   plugins:
+    language:
+      language_list: un
     stylescombo:
       styles: ''
 image_upload:
@@ -51,5 +49,5 @@ image_upload:
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

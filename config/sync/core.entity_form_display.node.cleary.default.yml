@@ -6,11 +6,10 @@ dependencies:
     - field.field.node.cleary.body
     - field.field.node.cleary.field_choice_1
     - field.field.node.cleary.field_choice_2
-    - field.field.node.cleary.field_reference_links
+    - field.field.node.cleary.field_nowcast
     - field.field.node.cleary.field_tags
     - node.type.cleary
   module:
-    - link
     - path
     - text
 id: node.cleary.default
@@ -49,13 +48,14 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_reference_links:
-    weight: 34
+  field_nowcast:
+    weight: 37
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: link_default
+    type: entity_reference_autocomplete
     region: content
   field_tags:
     weight: 36

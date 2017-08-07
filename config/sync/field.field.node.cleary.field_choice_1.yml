@@ -13,9 +13,7 @@ label: 'Choice 1'
 description: ''
 required: true
 translatable: false
-default_value:
-  -
-    value: 'Yes'
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: string
