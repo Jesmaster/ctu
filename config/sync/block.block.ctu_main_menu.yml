@@ -1,4 +1,4 @@
-uuid: 6b47df3e-fb6b-4b30-8199-489737f28f83
+uuid: 0b1220a9-19f6-46d9-a8e8-e1bfda1c0209
 langcode: en
 status: true
 dependencies:
@@ -12,8 +12,8 @@ _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
 id: ctu_main_menu
 theme: ctu
-region: navigation_collapsible
-weight: -7
+region: header
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:

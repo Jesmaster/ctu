@@ -1,4 +1,4 @@
-uuid: a821b3ff-593b-4bbe-ba51-d106bb947ad8
+uuid: f9ea0e19-ebb8-4532-bded-b6c75747c911
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: ctu_breadcrumbs
 theme: ctu
 region: content
-weight: -6
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:

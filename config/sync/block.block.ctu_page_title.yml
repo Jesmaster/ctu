@@ -1,4 +1,4 @@
-uuid: f6dadbf2-6947-4ffd-9e55-3c4c986e0b29
+uuid: 44814202-58ba-4a3a-8e6c-ec059048aa94
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: ctu_page_title
 theme: ctu
 region: content
-weight: -5
+weight: -4
 provider: null
 plugin: page_title_block
 settings:

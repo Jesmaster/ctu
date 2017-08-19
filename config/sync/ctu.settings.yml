@@ -1,20 +1,24 @@
-cdn_provider: ''
-_core:
-  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
-favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: 'http://localhost/ctu/web/themes/contrib/bootstrap/favicon.ico'
-  use_default: true
 features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
+  node_user_picture: 1
+  comment_user_picture: 1
+  favicon: 1
 logo:
-  path: ''
-  url: ''
-  use_default: true
-schemas:
-  bootstrap: 8000
-  ctu: 8000
+  use_default: 1
+favicon:
+  use_default: 1
+zurb_foundation_status_in_reveal: 0
+zurb_foundation_use_respondjs: 0
+zurb_foundation_meta_header_grid: 0
+zurb_foundation_top_bar_enable: '1'
+zurb_foundation_top_bar_grid: 0
+zurb_foundation_top_bar_sticky: 0
+zurb_foundation_top_bar_is_hover: 0
+zurb_foundation_top_bar_menu_text: ''
+zurb_foundation_top_bar_custom_back_text: 0
+zurb_foundation_top_bar_back_text: ''
+zurb_foundation_top_bar_search: 0
+zurb_foundation_page_site_name: 0
+zurb_foundation_page_site_logo: 0
+zurb_foundation_page_account_info: 0
+zurb_foundation_disable_base_css: 0
+zurb_foundation_disable_base_js: 0

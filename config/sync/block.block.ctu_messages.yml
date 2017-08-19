@@ -1,4 +1,4 @@
-uuid: af36c062-025c-4448-bc52-9b86043721a8
+uuid: d6dd0232-4a72-4670-81f1-ef82b3499dd1
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: ctu_messages
 theme: ctu
-region: highlighted
-weight: 0
+region: help
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:
