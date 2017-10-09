@@ -32,7 +32,7 @@ options.theme = {
 options.scss = {
   importer: importOnce,
   outputStyle: 'compressed',
-  lintIgnore: 'scss/_settings.scss',
+  lintIgnore: ['scss/_settings.scss', 'scss/base/_drupal.scss'],
   includePaths: [
     options.rootPath.project + 'node_modules/foundation-sites/scss',
     options.rootPath.project + 'node_modules/motion-ui/src'

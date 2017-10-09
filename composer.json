@@ -22,8 +22,8 @@
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "drupal/admin_toolbar": "^1.18",
-        "drupal/footnotes": "2.x-dev",
+        "drupal/admin_toolbar": "1.x-dev",
+        "drupal/footnotes": "~2.0",
         "drupal/zurb_foundation": "6.x-dev"
     },
     "require-dev": {
