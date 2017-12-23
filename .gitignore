@@ -19,3 +19,5 @@ web/sites/simpletest
 .idea
 
 .vagrant
+
+docker-compose.yml

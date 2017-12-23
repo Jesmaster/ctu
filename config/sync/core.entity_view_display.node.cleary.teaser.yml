@@ -20,5 +20,6 @@ hidden:
   body: true
   field_choice_1: true
   field_choice_2: true
+  field_nowcast: true
   field_tags: true
   links: true

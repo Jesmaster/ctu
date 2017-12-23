@@ -23,8 +23,9 @@
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
         "drupal/admin_toolbar": "1.x-dev",
-        "drupal/footnotes": "~2.0",
-        "drupal/zurb_foundation": "6.x-dev"
+        "drupal/footnotes": "2.x-dev",
+        "drupal/zurb_foundation": "6.x-dev",
+        "drupal/redis": "^1.0@RC"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -34,8 +35,7 @@
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
         "symfony/css-selector": "~2.8",
-        "drupal/devel": "1.x-dev",
-        "geerlingguy/drupal-vm": "^4.4"
+        "drupal/devel": "1.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
